@@ -28,6 +28,8 @@ Any suggestions, PRs and collaborations are highly encouraged. For information o
 
   ```cmd
   npm install
+  ```
 
+  ```cmd
   npm run dev
   ```
