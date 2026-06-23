@@ -64,11 +64,11 @@ function App() {
       <div className="main flex-9 lg:flex-10">
         <div className="max-w-3xl mx-auto flex flex-col h-full justify-between p-4">
           {/* Chats */}
-          <div className="flex flex-col h-full gap-3 justify-center w-full">
+          <div className="flex flex-col h-full gap-3 justify-center w-full overflow-y-scroll scrollbar-none">
             {/* User Message */}
             <div className="flex gap-4 items-start justify-end p-2">
               <p className="font-md text-gray-300/80 font-semibold bg-gray-800 py-2 px-4 rounded-2xl rounded-tr-none">
-                Question/Prompt comes here.
+                Question/Prompt comes here for One.
               </p>
               <img
                 src={userIcon}
