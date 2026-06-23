@@ -104,6 +104,11 @@ function App() {
               <img src={sendIcon} alt="Send" />
             </button>
           </div>
+
+          {/* Footer */}
+          <footer className="absolute bottom-0 text-center translate-x-1/2 text-gray-600 ml-10 p-1">
+            AI generated content, use with cautions.
+          </footer>
         </div>
       </div>
     </div>
